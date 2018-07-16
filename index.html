@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="swiper/swiper.min.css">
+    <script>
+        var pixelRatio = 1 / window.devicePixelRatio; //还原设备的真实分辨率；
+        //devicePixelRatio设备的像素比；
+
+        document.write('<meta name="viewport" content="width=device-width,initial-scale=' + pixelRatio + ',minimum-scale=' + pixelRatio + ',maximum-scale=' + pixelRatio + '" />');
+        var html = document.getElementsByTagName('html')[0];
+        var pageWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = pageWidth / 10 + "px";
+    </script>
+</head>
+<body>
+    <!--头部开始-->
+    <header>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="imgs/banner1.png" alt=""></div>
+                <div class="swiper-slide"><img src="imgs/ww.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="imgs/kv07.png" alt=""></div>
+                <div class="swiper-slide"><img src="imgs/ss.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="imgs/cc.jpg" alt=""></div>
+        </div>
+    <!-- 分页器小点点 -->
+             <div class="swiper-pagination"></div>
+        </div>
+
+        <!--搜索开始-->
+        <div class="top">
+            <div class=" location">
+               <span>上海 </span>
+               <img src="imgs/san.png" alt="">
+            </div>
+            <div class="search">
+                <img src="imgs/sou.png" alt="">
+                <input type="text">
+            </div>
+            <div class="information">
+                <a href="">
+                    <img src="imgs/xiao.png" alt="">
+                    <img src="imgs/dian.png" alt="">
+                </a>
+            </div>
+        </div>
+        <!--搜索结束-->
+       <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6/22中雨 紫外线弱，无需特殊防护</p>
+    </header>
+    <!--头部结束-->
+    <section>
+        <!-- 优惠券开始 -->
+        <div class="discount">
+            <div class="recommend">
+                 <p>推荐优惠券</p>
+                 <a href="">共13条></a>
+            </div>
+            <img src="imgs/buyjian.png" alt="">
+        </div>
+        <!-- 优惠券结束 -->
+
+        <!-- 品牌馆开始 -->
+        <div class="brand">
+           <div class="line"></div>
+           <div class="guan">品牌馆</div>
+           <div class="line"></div>
+        </div>
+        <!-- 品牌馆结束 -->
+
+        <!-- 佰草集馆开始 -->
+        <div class="baicaoji">
+            <div class="banner">
+                <div class="banner-one">
+                    <img src="imgs/bai.png" alt="">
+                    <p>品牌馆</p>
+                </div>    
+            </div>
+             <!--商品列表开始-->
+            <div class="goods">
+                    <ul>
+                        <li>
+                           <ul>
+                               <li><img src="imgs/tai.png" alt=""></li>
+                           </ul>
+                           <span>太极·日月·蕴美&nbsp;精华</span>
+                           <div class="price">
+                               <p>￥645. <span>5</span></p>
+                               <img src="imgs/quan.png" alt="">
+                               <img src="imgs/you.png" alt="">
+                           </div>
+                        </li>
+                        <li>
+                           <ul>
+                               <li><img src="imgs/xin.png" alt=""></li>
+                           </ul>
+                           <span>新七白面膜泥补水保湿亮白修护白皙</span>
+                           <div class="price">
+                               <p>￥266. <span>5</span></p>
+                               <img src="imgs/quan.png" alt="">
+                               <img src="imgs/you.png" alt="">
+                           </div>
+                           <p>￥350</p>
+                        </li>
+                        <li>
+                           <ul>
+                               <li><img src="imgs/shuang.png" alt=""></li>
+                           </ul>
+                           <span>新七白美白日霜</span>
+                           <div class="price">
+                               <p>￥399 <span>9</span></p>
+                               <img src="imgs/you.png" alt="">
+                           </div>
+                           <p>￥500</p>
+                        </li>
+                        <li>
+                           <ul>
+                               <li><img src="imgs/cao.png" alt=""></li>
+                           </ul>
+                           <span>新玉润保湿菁华膏</span>
+                           <div class="price">
+                               <p>￥200 <span>99</span></p>
+                               <img src="imgs/quan.png" alt="">
+                           </div>
+                           <p>￥400</p>
+                        </li>
+                        
+                    </ul>
+            </div>
+              <!--商品列表结束-->
+        </div>
+         <!-- 佰草集馆结束 -->
+
+           <!-- 高夫馆开始 -->
+        <div class="gaofu">
+            <div class="banner">
+                <!--<div class="banner-one">
+                </div>    -->
+            </div>
+             <!--商品列表开始-->
+            <div class="goods">
+                    <ul>
+                        <li>
+                           <ul>
+                               <li><img src="imgs/bao.png" alt=""></li>
+                           </ul>
+                           <span>保湿补水霜</span>
+                           <div class="price">
+                               <p>￥99. <span>5</span></p>
+                               <img src="imgs/quan.png" alt="">
+                               <img src="imgs/you.png" alt="">
+                           </div>
+                           <p>￥120</p>
+                        </li>
+                        <li>
+                           <ul>
+                               <li><img src="imgs/jing.png" alt=""></li>
+                           </ul>
+                           <span>净透控油爽肤水</span>
+                           <div class="price">
+                               <p>￥266. <span>5</span></p>
+                               <img src="imgs/quan.png" alt="">
+                               <img src="imgs/you.png" alt="">
+                           </div>
+                           <p>￥350</p>
+                        </li>
+                        <li>
+                           <ul>
+                               <li><img src="imgs/shui.png" alt=""></li>
+                           </ul>
+                           <span>净透控油爽肤水&nbsp;&nbsp; (新品)</span>
+                           <div class="price">
+                               <p>￥99 <span>9</span></p>
+                               <img src="imgs/you.png" alt="">
+                           </div>
+                        </li>
+                        <li>
+                            <img src="imgs/zuo.png" alt="">
+                            <div class="more"><a href="">更多商品</a></div>
+                        </li>
+                       
+                    </ul>
+            </div> 
+        </div>
+        <!-- 高夫馆结束 -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+              
+             
+    </section>
+
+    <!--尾部导航开始-->
+    <footer>
+        <ul>
+            <li>
+                <a href="">
+                    <img src="imgs/home.png" alt="">
+                    <p>首页</p>
+                </a>
+            </li>
+             <li>
+                <a href="">
+                    <img src="imgs/gan.png" alt="">
+                    <p>干货</p>
+                </a>
+            </li>
+             <li>
+                <a href="">
+                    <img src="imgs/wei.png" alt="">
+                </a>
+            </li>
+             <li>
+                <a href="">
+                    <img src="imgs/gou.png" alt="">
+                    <p>购物车</p>
+                </a>
+            </li>
+             <li>
+                <a href="">
+                    <img src="imgs/my.png" alt="">
+                    <p>我的</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!--尾部导航结束-->
+
+    <script src="swiper/swiper.min.js"></script>
+    <script type="text/javascript">
+    window.onload = function() {
+      var mySwiper = new Swiper ('.swiper-container', {
+        direction:'horizontal',
+        loop: true,
+        autoplay:1000,
+        speed:2000,
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+　　　　 autoplayDisableOnInteraction : false,
+        scrollbar: '.swiper-scrollbar',
+         pagination: {
+      el: '.swiper-pagination',
+    },
+      });
+    }        
+    </script>
+
+</body>
+</html>
